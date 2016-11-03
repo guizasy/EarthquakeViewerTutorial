@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Earthquake Viewer</string>
+    <string name="quake_feed">http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.quakeml</string>
 </resources>
