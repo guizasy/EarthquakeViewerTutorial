@@ -33,7 +33,7 @@ public class Quake {
     @Override
     public String toString() {
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
-        String quakeString = sdf.format(date) + ":" + magnitude + "" + details;
+        String quakeString = sdf.format(date) + " - " + magnitude + " - " + details + " - Long.: " +  location.getLongitude() + " / Lat.: " + location.getLatitude();
 
         return quakeString;
     }

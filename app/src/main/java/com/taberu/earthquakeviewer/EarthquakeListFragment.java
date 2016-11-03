@@ -103,7 +103,7 @@ public class EarthquakeListFragment extends ListFragment {
                         String magnitudeStr = entry.getElementsByTagName("mag").item(0).
                                 getFirstChild().getFirstChild().getNodeValue();
 
-                        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss.SSS'Z'");
+                        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
 
                         Date qdate = new Date();
 
